@@ -1,0 +1,4 @@
+#ifndef PILHA_H_INCLUDED
+#define PILHA_H_INCLUDED
+
+#endif // !FILA_H_INCLUDED
