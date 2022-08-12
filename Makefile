@@ -24,7 +24,7 @@ install:
 	@cd ./$(TEST_DIR)/$(CHECK404_DIR); $(MAKE) install 
 
 $(PROBLEM_SET): $(BIN_DIR)
-	@$(CC) $(SRC_DIR)/$(@).c ./include/fila.h ./include/lista.h ./include/pilha.h $(CFLAGS) $(LDFLAGS) $(LDLIBS) -o $(BIN_DIR)/$@.out
+	@$(CC) $(SRC_DIR)/$(@).c ./include/fila.c ./include/lista.c ./include/pilha.c $(CFLAGS) $(LDFLAGS) $(LDLIBS) -o $(BIN_DIR)/$@.out
 
 $(BIN_DIR):
 	@mkdir -p $(BIN_DIR)
